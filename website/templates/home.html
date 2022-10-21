@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+<!-- importando o block do base.html no home.html para que possamos mudar
+     o nome dele em qualquer outro arquivo, fazendo o base.html uma especie 
+     de template para as outras partes do site
+    
+     isso significa dizer que você vai precisar fzer um arquivo html para cada pagina
+    -->
+
+
+{% block content %}
+<h1>This is the homepage</h1>
+{% endblock %}
